@@ -1,0 +1,260 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: luci-app-lotus-mini-hardware-service\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Lotus Mini Hardware"
+msgstr ""
+
+msgid "Lotus Mini 硬件服务"
+msgstr ""
+
+msgid "不可用"
+msgstr ""
+
+msgid "五档读数"
+msgstr ""
+
+msgid "使用电池"
+msgstr ""
+
+msgid "保存失败"
+msgstr ""
+
+msgid "停止服务"
+msgstr ""
+
+msgid "充电中"
+msgstr ""
+
+msgid "充电状态"
+msgstr ""
+
+msgid "关闭"
+msgstr ""
+
+msgid "关闭开机自动运行"
+msgstr ""
+
+msgid "取消"
+msgstr ""
+
+msgid "可用"
+msgstr ""
+
+msgid "否"
+msgstr ""
+
+msgid "启动服务"
+msgstr ""
+
+msgid "启动服务后才能调整音量、麦克风和指示灯。"
+msgstr ""
+
+msgid "呼吸"
+msgstr ""
+
+msgid "呼吸测试"
+msgstr ""
+
+msgid "图形模块温度"
+msgstr ""
+
+msgid "处理器温度"
+msgstr ""
+
+msgid "已充满"
+msgstr ""
+
+msgid "已连接外接电源"
+msgstr ""
+
+msgid "已静音"
+msgstr ""
+
+msgid "常亮"
+msgstr ""
+
+msgid "应用使用状态"
+msgstr ""
+
+msgid "开启开机自动运行"
+msgstr ""
+
+msgid "开机自动运行"
+msgstr ""
+
+msgid "当前灯效"
+msgstr ""
+
+msgid "当前状态"
+msgstr ""
+
+msgid "拖动音量滑条，松开后生效。麦克风静音会暂停兼容语音应用的录音和唤醒，但不会切断麦克风电源。"
+msgstr ""
+
+msgid "指示灯"
+msgstr ""
+
+msgid "按键"
+msgstr ""
+
+msgid "提示"
+msgstr ""
+
+msgid "操作未成功，请查看下方日志。"
+msgstr ""
+
+msgid "故障排查日志"
+msgstr ""
+
+msgid "无法获取状态"
+msgstr ""
+
+msgid "无法连接硬件服务，请检查服务是否运行。"
+msgstr ""
+
+msgid "日志读取失败，请检查网络连接后重试。"
+msgstr ""
+
+msgid "是"
+msgstr ""
+
+msgid "暂无日志"
+msgstr ""
+
+msgid "暂时无法获取服务状态，请检查网络连接后刷新页面。"
+msgstr ""
+
+msgid "暂时无法读取日志，请稍后重试。"
+msgstr ""
+
+msgid "暂时无法读取温度。"
+msgstr ""
+
+msgid "有应用正在使用硬件"
+msgstr ""
+
+msgid "有应用正在使用硬件。若要停止或重启服务、测试灯效，请先在该应用的页面停止它。"
+msgstr ""
+
+msgid "有应用正在使用硬件，暂时无法执行此操作。"
+msgstr ""
+
+msgid "有应用正在使用硬件，请先停止该应用。"
+msgstr ""
+
+msgid "服务启动失败，请查看下方日志。"
+msgstr ""
+
+msgid "服务操作失败，请查看下方日志。"
+msgstr ""
+
+msgid "服务管理与灯效测试"
+msgstr ""
+
+msgid "未充电"
+msgstr ""
+
+msgid "未知"
+msgstr ""
+
+msgid "未运行"
+msgstr ""
+
+msgid "未静音"
+msgstr ""
+
+msgid "查看日志"
+msgstr ""
+
+msgid "查看电量、温度和硬件状态，调整音量与麦克风静音。"
+msgstr ""
+
+msgid "正在保存静音设置，请稍候；解除静音前会保持静音。"
+msgstr ""
+
+msgid "渐变"
+msgstr ""
+
+msgid "渐变测试"
+msgstr ""
+
+msgid "灯效测试持续约两秒，不播放声音。"
+msgstr ""
+
+msgid "电池电量"
+msgstr ""
+
+msgid "白光测试"
+msgstr ""
+
+msgid "硬件服务"
+msgstr ""
+
+msgid "确认解除"
+msgstr ""
+
+msgid "空闲"
+msgstr ""
+
+msgid "芯片温度"
+msgstr ""
+
+msgid "解除后，正在运行的语音应用可能恢复唤醒和录音。是否继续？"
+msgstr ""
+
+msgid "解除静音"
+msgstr ""
+
+msgid "解除麦克风静音"
+msgstr ""
+
+msgid "请求格式有误，请刷新页面后重试。"
+msgstr ""
+
+msgid "运行中"
+msgstr ""
+
+msgid "遇到问题时，点击“查看日志”获取排查信息。"
+msgstr ""
+
+msgid "重启服务"
+msgstr ""
+
+msgid "音量"
+msgstr ""
+
+msgid "音量 +5"
+msgstr ""
+
+msgid "音量 −5"
+msgstr ""
+
+msgid "音量与麦克风"
+msgstr ""
+
+msgid "音量未能保存，重启后可能恢复为旧音量。"
+msgstr ""
+
+msgid "音量百分比"
+msgstr ""
+
+msgid "麦克风"
+msgstr ""
+
+msgid "麦克风已静音，灯效测试暂不可用，以保留静音指示。"
+msgstr ""
+
+msgid "麦克风操作"
+msgstr ""
+
+msgid "麦克风静音"
+msgstr ""
+
+msgid "麦克风静音指示"
+msgstr ""
+
+msgid "麦克风静音设置未能保存，请重试。当前状态见上方。"
+msgstr ""

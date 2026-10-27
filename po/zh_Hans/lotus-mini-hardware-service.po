@@ -1,0 +1,262 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: luci-app-lotus-mini-hardware-service\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_Hans\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Lotus Mini Hardware"
+msgstr "Lotus Mini 硬件服务"
+
+msgid "Lotus Mini 硬件服务"
+msgstr "Lotus Mini 硬件服务"
+
+msgid "不可用"
+msgstr "不可用"
+
+msgid "五档读数"
+msgstr "五档读数"
+
+msgid "使用电池"
+msgstr "使用电池"
+
+msgid "保存失败"
+msgstr "保存失败"
+
+msgid "停止服务"
+msgstr "停止服务"
+
+msgid "充电中"
+msgstr "充电中"
+
+msgid "充电状态"
+msgstr "充电状态"
+
+msgid "关闭"
+msgstr "关闭"
+
+msgid "关闭开机自动运行"
+msgstr "关闭开机自动运行"
+
+msgid "取消"
+msgstr "取消"
+
+msgid "可用"
+msgstr "可用"
+
+msgid "否"
+msgstr "否"
+
+msgid "启动服务"
+msgstr "启动服务"
+
+msgid "启动服务后才能调整音量、麦克风和指示灯。"
+msgstr "启动服务后才能调整音量、麦克风和指示灯。"
+
+msgid "呼吸"
+msgstr "呼吸"
+
+msgid "呼吸测试"
+msgstr "呼吸测试"
+
+msgid "图形模块温度"
+msgstr "图形模块温度"
+
+msgid "处理器温度"
+msgstr "处理器温度"
+
+msgid "已充满"
+msgstr "已充满"
+
+msgid "已连接外接电源"
+msgstr "已连接外接电源"
+
+msgid "已静音"
+msgstr "已静音"
+
+msgid "常亮"
+msgstr "常亮"
+
+msgid "应用使用状态"
+msgstr "应用使用状态"
+
+msgid "开启开机自动运行"
+msgstr "开启开机自动运行"
+
+msgid "开机自动运行"
+msgstr "开机自动运行"
+
+msgid "当前灯效"
+msgstr "当前灯效"
+
+msgid "当前状态"
+msgstr "当前状态"
+
+msgid "拖动音量滑条，松开后生效。麦克风静音会暂停兼容语音应用的录音和唤醒，但不会切断麦克风电源。"
+msgstr "拖动音量滑条，松开后生效。麦克风静音会暂停兼容语音应用的录音和唤醒，但不会切断麦克风电源。"
+
+msgid "指示灯"
+msgstr "指示灯"
+
+msgid "按键"
+msgstr "按键"
+
+msgid "提示"
+msgstr "提示"
+
+msgid "操作未成功，请查看下方日志。"
+msgstr "操作未成功，请查看下方日志。"
+
+msgid "故障排查日志"
+msgstr "故障排查日志"
+
+msgid "无法获取状态"
+msgstr "无法获取状态"
+
+msgid "无法连接硬件服务，请检查服务是否运行。"
+msgstr "无法连接硬件服务，请检查服务是否运行。"
+
+msgid "日志读取失败，请检查网络连接后重试。"
+msgstr "日志读取失败，请检查网络连接后重试。"
+
+msgid "是"
+msgstr "是"
+
+msgid "暂无日志"
+msgstr "暂无日志"
+
+msgid "暂时无法获取服务状态，请检查网络连接后刷新页面。"
+msgstr "暂时无法获取服务状态，请检查网络连接后刷新页面。"
+
+msgid "暂时无法读取日志，请稍后重试。"
+msgstr "暂时无法读取日志，请稍后重试。"
+
+msgid "暂时无法读取温度。"
+msgstr "暂时无法读取温度。"
+
+msgid "有应用正在使用硬件"
+msgstr "有应用正在使用硬件"
+
+msgid "有应用正在使用硬件。若要停止或重启服务、测试灯效，请先在该应用的页面停止它。"
+msgstr "有应用正在使用硬件。若要停止或重启服务、测试灯效，请先在该应用的页面停止它。"
+
+msgid "有应用正在使用硬件，暂时无法执行此操作。"
+msgstr "有应用正在使用硬件，暂时无法执行此操作。"
+
+msgid "有应用正在使用硬件，请先停止该应用。"
+msgstr "有应用正在使用硬件，请先停止该应用。"
+
+msgid "服务启动失败，请查看下方日志。"
+msgstr "服务启动失败，请查看下方日志。"
+
+msgid "服务操作失败，请查看下方日志。"
+msgstr "服务操作失败，请查看下方日志。"
+
+msgid "服务管理与灯效测试"
+msgstr "服务管理与灯效测试"
+
+msgid "未充电"
+msgstr "未充电"
+
+msgid "未知"
+msgstr "未知"
+
+msgid "未运行"
+msgstr "未运行"
+
+msgid "未静音"
+msgstr "未静音"
+
+msgid "查看日志"
+msgstr "查看日志"
+
+msgid "查看电量、温度和硬件状态，调整音量与麦克风静音。"
+msgstr "查看电量、温度和硬件状态，调整音量与麦克风静音。"
+
+msgid "正在保存静音设置，请稍候；解除静音前会保持静音。"
+msgstr "正在保存静音设置，请稍候；解除静音前会保持静音。"
+
+msgid "渐变"
+msgstr "渐变"
+
+msgid "渐变测试"
+msgstr "渐变测试"
+
+msgid "灯效测试持续约两秒，不播放声音。"
+msgstr "灯效测试持续约两秒，不播放声音。"
+
+msgid "电池电量"
+msgstr "电池电量"
+
+msgid "白光测试"
+msgstr "白光测试"
+
+msgid "硬件服务"
+msgstr "硬件服务"
+
+msgid "确认解除"
+msgstr "确认解除"
+
+msgid "空闲"
+msgstr "空闲"
+
+msgid "芯片温度"
+msgstr "芯片温度"
+
+msgid "解除后，正在运行的语音应用可能恢复唤醒和录音。是否继续？"
+msgstr "解除后，正在运行的语音应用可能恢复唤醒和录音。是否继续？"
+
+msgid "解除静音"
+msgstr "解除静音"
+
+msgid "解除麦克风静音"
+msgstr "解除麦克风静音"
+
+msgid "请求格式有误，请刷新页面后重试。"
+msgstr "请求格式有误，请刷新页面后重试。"
+
+msgid "运行中"
+msgstr "运行中"
+
+msgid "遇到问题时，点击“查看日志”获取排查信息。"
+msgstr "遇到问题时，点击“查看日志”获取排查信息。"
+
+msgid "重启服务"
+msgstr "重启服务"
+
+msgid "音量"
+msgstr "音量"
+
+msgid "音量 +5"
+msgstr "音量 +5"
+
+msgid "音量 −5"
+msgstr "音量 −5"
+
+msgid "音量与麦克风"
+msgstr "音量与麦克风"
+
+msgid "音量未能保存，重启后可能恢复为旧音量。"
+msgstr "音量未能保存，重启后可能恢复为旧音量。"
+
+msgid "音量百分比"
+msgstr "音量百分比"
+
+msgid "麦克风"
+msgstr "麦克风"
+
+msgid "麦克风已静音，灯效测试暂不可用，以保留静音指示。"
+msgstr "麦克风已静音，灯效测试暂不可用，以保留静音指示。"
+
+msgid "麦克风操作"
+msgstr "麦克风操作"
+
+msgid "麦克风静音"
+msgstr "麦克风静音"
+
+msgid "麦克风静音指示"
+msgstr "麦克风静音指示"
+
+msgid "麦克风静音设置未能保存，请重试。当前状态见上方。"
+msgstr "麦克风静音设置未能保存，请重试。当前状态见上方。"

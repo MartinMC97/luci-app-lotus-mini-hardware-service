@@ -1,0 +1,6 @@
+/build/
+/artifacts/
+__pycache__/
+
+# Local development/test records.
+/docs/*.md

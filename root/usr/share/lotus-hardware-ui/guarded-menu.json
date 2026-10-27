@@ -1,0 +1,11 @@
+{
+  "admin/status/lotus_sensors": {
+    "title": "Lotus Mini sensors",
+    "order": 25,
+    "action": { "type": "view", "path": "status/lotus_sensors" },
+    "depends": {
+      "acl": ["lotus-sensors"],
+      "fs": { "/usr/libexec/rpcd/lotus_hardware": "absent" }
+    }
+  }
+}

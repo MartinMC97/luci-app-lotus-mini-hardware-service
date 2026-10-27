@@ -1,0 +1,8 @@
+{
+  "admin/status/lotus_hardware": {
+    "title": "Lotus Mini Hardware",
+    "order": 25,
+    "action": { "type": "view", "path": "status/lotus_hardware" },
+    "depends": { "acl": ["luci-app-lotus-mini-hardware-service"] }
+  }
+}

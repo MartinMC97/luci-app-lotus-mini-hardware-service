@@ -1,0 +1,7 @@
+{
+  "luci-app-lotus-mini-hardware-service": {
+    "description": "Read and manage the local Lotus Mini hardware service",
+    "read": { "ubus": { "lotus_hardware": ["status", "logs"] } },
+    "write": { "ubus": { "lotus_hardware": ["set_volume", "adjust_volume", "set_privacy", "service", "test_led"] } }
+  }
+}

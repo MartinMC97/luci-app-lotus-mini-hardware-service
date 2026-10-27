@@ -1,0 +1,21 @@
+#!/bin/sh
+# Only replace the exact known stock menu; preserve unknown local edits.
+set -eu
+menu=/usr/share/luci/menu.d/lotus-sensors.json
+stock=/usr/share/lotus-hardware-ui/legacy-menu.json
+guard=/usr/share/lotus-hardware-ui/guarded-menu.json
+case "${1:-}" in
+ install)
+    [ -f "$menu" ] && [ ! -L "$menu" ] || exit 0
+    cmp -s "$menu" "$guard" && exit 0
+    if ! cmp -s "$menu" "$stock"; then
+        logger -t lotus-hardware-ui 'Unknown sensors menu; unchanged'; exit 0
+    fi
+    cp "$guard" "$menu"
+    ;;
+ restore)
+    [ -f "$menu" ] && [ ! -L "$menu" ] || exit 0
+    if cmp -s "$menu" "$guard"; then cp "$stock" "$menu"; fi
+    ;;
+ *) exit 2;;
+esac
