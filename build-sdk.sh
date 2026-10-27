@@ -12,6 +12,6 @@ cd "$sdk"
 cp tmp/lotus-hardware-ui.config .config
 make defconfig
 make -j2 package/luci-base/host/compile V=s
-make -j2 package/luci-app-lotus-mini-hardware-service/compile NO_DEPS=1 CONFIG_AUTOREMOVE= V=s
+make -j2 package/luci-app-lotus-mini-hardware-service/compile CONFIG_AUTOREMOVE= V=s
 mkdir -p "$repo/artifacts"
 find bin/packages -name 'luci-app-lotus-mini-hardware-service-*.apk' -exec cp {} "$repo/artifacts/" \;
