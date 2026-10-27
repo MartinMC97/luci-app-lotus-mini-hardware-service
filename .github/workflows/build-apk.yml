@@ -16,7 +16,7 @@ concurrency:
 
 env:
   # Public hardware-service snapshot; update deliberately with dependency changes.
-  HARDWARE_SERVICE_REF: '72df8e41cea3ad84c3f56fff58babdd38f107464'
+  HARDWARE_SERVICE_REF: '8200ff77dada3cb1892d8a1c37abc31071d9da2c'
 
 jobs:
   build:
