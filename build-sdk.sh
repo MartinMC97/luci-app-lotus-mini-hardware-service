@@ -8,6 +8,7 @@ sdk=$(CDPATH= cd -- "$1" && pwd)
 }
 ln -sfn "$repo" "$sdk/package/luci-app-lotus-mini-hardware-service"
 cd "$sdk"
+touch .config
 ./scripts/kconfig.pl + .config "$repo/sdk.config" > tmp/lotus-hardware-ui.config
 cp tmp/lotus-hardware-ui.config .config
 make defconfig
