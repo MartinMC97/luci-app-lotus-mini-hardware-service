@@ -12,11 +12,11 @@ permissions:
 
 concurrency:
   group: apk-${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: ${{ github.ref_type != 'tag' }}
 
 env:
   # Public hardware-service snapshot; update deliberately with dependency changes.
-  HARDWARE_SERVICE_REF: 'd98b8c35f6af98728621236a1a28772f1ea81699'
+  HARDWARE_SERVICE_REF: '59d7b0a1629fb5d79bce845b4d2d94f03b36e97a'
 
 jobs:
   build:
