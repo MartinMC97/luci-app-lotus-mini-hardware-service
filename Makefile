@@ -1,7 +1,7 @@
 include $(TOPDIR)/rules.mk
 PKG_NAME:=luci-app-lotus-mini-hardware-service
 PKG_VERSION:=0.1.0
-PKG_RELEASE:=5
+PKG_RELEASE:=6
 PKG_LICENSE:=GPL-3.0-only
 PKG_BUILD_DEPENDS:=lotus-hardware-service luci-base/host
 PKG_FILE_DEPENDS:=$(CURDIR)/src $(CURDIR)/root $(CURDIR)/po

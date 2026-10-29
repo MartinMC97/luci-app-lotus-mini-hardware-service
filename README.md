@@ -10,7 +10,7 @@ Lotus Mini 本机硬件服务的独立管理界面。读取电量、供电、温
 `lotus-hardware-service`。开发 APK 未签名，校验来源和 SHA-256 后安装：
 
 ```sh
-apk --no-network add --allow-untrusted /tmp/luci-app-lotus-mini-hardware-service-0.1.0-r5.apk
+apk --no-network add --allow-untrusted /tmp/luci-app-lotus-mini-hardware-service-0.1.0-r6.apk
 ```
 
 刷新 LuCI 后进入 **状态 → Lotus Mini Hardware**。
@@ -61,7 +61,7 @@ sh build-sdk.sh /path/to/matching-openwrt-sdk
 `HARDWARE_SERVICE_REPO` 可指定硬件服务源码目录，用 mock 服务验证，无实机采音。
 
 GitHub Actions 在推送到 `main`、提交 PR 或手动触发时运行主机测试，并使用
-固定提交的硬件服务源码先构建依赖，再通过同一个官方 OpenWrt 25.12.0
+固定提交的硬件服务源码先构建依赖，再通过同一个官方 OpenWrt 25.12.5
 rockchip/armv8 SDK 构建本包。SDK 下载有固定 SHA-256，feeds 使用发布时的提交。
 Actions artifacts 包含 APK、构建来源与校验文件；推送与软件包版本一致的
 `v<版本>-r<修订>` 标签会自动把这些文件附加到 GitHub Release。

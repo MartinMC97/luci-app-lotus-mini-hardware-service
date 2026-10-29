@@ -16,7 +16,7 @@ concurrency:
 
 env:
   # Public hardware-service snapshot; update deliberately with dependency changes.
-  HARDWARE_SERVICE_REF: '59d7b0a1629fb5d79bce845b4d2d94f03b36e97a'
+  HARDWARE_SERVICE_REF: '1531764037bca6c25d2c78ef800b57f85eee8c70'
 
 jobs:
   build:
@@ -51,7 +51,7 @@ jobs:
         run: |
           make -C hardware-service
           HARDWARE_SERVICE_REPO="$GITHUB_WORKSPACE/hardware-service" sh luci-app/test.sh
-      - name: Prepare pinned OpenWrt 25.12.0 SDK
+      - name: Prepare pinned OpenWrt 25.12.5 SDK
         run: sh hardware-service/.github/scripts/prepare-sdk.sh "$RUNNER_TEMP/openwrt-sdk"
       - name: Build hardware-service dependency and stage its headers
         run: sh hardware-service/openwrt/build-sdk.sh "$RUNNER_TEMP/openwrt-sdk"
@@ -63,7 +63,7 @@ jobs:
           SOURCE_COMMIT: ${{ github.sha }}
         run: |
           test -n "$(find . -maxdepth 1 -name 'luci-app-lotus-mini-hardware-service-*.apk' -print -quit)"
-          printf 'SDK=OpenWrt 25.12.0\nTARGET=rockchip/armv8\nSOURCE_COMMIT=%s\nHARDWARE_SERVICE_COMMIT=%s\n' "$SOURCE_COMMIT" "$HARDWARE_SERVICE_REF" > BUILDINFO
+          printf 'SDK=OpenWrt 25.12.5\nTARGET=rockchip/armv8\nSOURCE_COMMIT=%s\nHARDWARE_SERVICE_COMMIT=%s\n' "$SOURCE_COMMIT" "$HARDWARE_SERVICE_REF" > BUILDINFO
           sha256sum ./*.apk BUILDINFO > SHA256SUMS
       - name: Upload APK artifacts
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
@@ -95,6 +95,6 @@ jobs:
           sha256sum --check SHA256SUMS
           if ! gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
             gh release create "$RELEASE_TAG" --verify-tag --title "$RELEASE_TAG" \
-              --notes 'LuCI dashboard for Lotus Mini hardware service. Built with the pinned OpenWrt 25.12.0 rockchip/armv8 SDK. Development APKs are unsigned; verify SHA256SUMS before installing.'
+              --notes 'LuCI dashboard for Lotus Mini hardware service. Built with the pinned OpenWrt 25.12.5 rockchip/armv8 SDK. Development APKs are unsigned; verify SHA256SUMS before installing.'
           fi
           gh release upload "$RELEASE_TAG" ./*.apk BUILDINFO SHA256SUMS --clobber
